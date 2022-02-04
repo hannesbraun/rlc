@@ -6,9 +6,9 @@ class Champions {
 	public static function getRandomChampions(i:Int):Array<String> {
 		final result = new Array();
 
-        if (i > champions.length) {
-            i = champions.length;
-        }
+		if (i > champions.length) {
+			i = champions.length;
+		}
 
 		while (result.length < i) {
 			final champ = getRandomChampion();
